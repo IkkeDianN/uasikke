@@ -88,7 +88,7 @@
         <!--- header --->
         <header>
             <div class="container"></div>
-                <h1><a href="">Webinar.gratis</a></h1>
+                <h1><a href="">InfoWorkshop</a></h1>
             </div>
         </header>
 
