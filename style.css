@@ -1,0 +1,115 @@
+*{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	text-decoration: none;
+}
+
+.container {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #eee;
+}
+
+.container .content {
+	width: 700px;
+	text-align: center;
+}
+
+.container .content h3{
+	font-size: 5vw;
+	text-transform: uppercase;
+}
+
+.container .content p{
+	font-size: 20px;
+	padding: 10px 0;
+}
+
+.container .content p span{
+	color: plum;
+}
+
+.container.content .logout {
+	display: inline-block;
+	margin-top: 10px;
+	background: #000;
+	color: #fff;
+	padding: 10px 35px;
+	font-size: 20px;
+}
+ 
+.form-container{
+	min-height: 100vh;
+	background-color: #eee;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding-bottom: 80px;
+}
+ 
+.form-container form{
+	background-color: #d5aabf;
+	border-radius: 30px;
+	width: 400px;
+	border:2px solid #d12c68;
+	padding:20px;
+	text-align: center;
+}
+ 
+.form-container form .title{
+	font-size: 25px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+ 
+.form-container form .box{
+	border-radius: 50px;
+	width: 100%;
+	padding:12px 14px;
+	font-size: 15px;
+	text-transform: none;
+	border:2px solid #d02396;
+	margin:10px 0;
+}
+ 
+.form-container form .form-btn{
+	border-radius: 50px;
+	display: block;
+	width: 100%;
+	font-size: 20px;
+	padding:10px;
+	background-color: #a6d681b1;
+	color:#fff;
+	cursor: pointer;
+	margin:10px 0;
+}
+ 
+.form-container form .form-btn:hover{
+	background-color: #cb657a;
+}
+ 
+.form-container form p{
+	font-size: 15px;
+	margin-top: 30px;
+	font-style: oblique;
+}
+ 
+.form-container form p a{
+	color: #018101;
+	font-weight: bold;
+}
+ 
+.form-container form .error-msg{
+	display: block;
+	width: 100%;
+	padding:10px 0;
+	margin:10px 0;
+	font-size: 15px;
+	color: red ;
+}
